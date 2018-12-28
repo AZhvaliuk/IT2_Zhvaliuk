@@ -1,0 +1,13 @@
+Инструкции:
+1) Файл payments необходимо вставить в папку с файлами по контрактам и анкетам.
+2) Установить среду разработки PyCharm https://www.jetbrains.com/pycharm/
+3) В настройках установить библиотеки:numpy, pandas, pip, pyodbc, python-dateutil, pytz, scikit-learn, scipy, 
+setuptool, sklearn, tabulate, xlrd.
+Пример: setting -> project interpreter -> плюсик -> в поле поиска xlrd -> install
+4) Откройте в  PyCharm 3 файла: first task, second task, third task и general. В general содержится общий код.
+5) Запустите сначала first task,затем second task и наконец third task
+
+
+Результаты:
+1)Загружены из БД данные о параметрах заемщиках (из второго задания) и флаги {дефолт/недефолт} на горизонте 1 год.
+2)Формирует 5 возрастных групп заемщиков, присваивает баллы от 1 до 5 по этим группам и выводит таблицу с результатами.
